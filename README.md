@@ -64,18 +64,18 @@ Installing as a plugin bundles **both** the `mike-ross` skill (`/mike-ross`) and
 
 **Using the Antigravity CLI (`agy`):**
 ```bash
-agy plugin install https://github.com/thekrish008/antigravity-skills-suits
+agy plugin install https://github.com/itskrish008/antigravity-skills-suits
 ```
 
 **Or clone directly into your global plugins directory:**
 
 - **macOS / Linux:**
   ```bash
-  git clone https://github.com/thekrish008/antigravity-skills-suits.git ~/.gemini/config/plugins/antigravity-skills-suits
+  git clone https://github.com/itskrish008/antigravity-skills-suits.git ~/.gemini/config/plugins/antigravity-skills-suits
   ```
 - **Windows (PowerShell):**
   ```powershell
-  git clone https://github.com/thekrish008/antigravity-skills-suits.git "$HOME\.gemini\config\plugins\antigravity-skills-suits"
+  git clone https://github.com/itskrish008/antigravity-skills-suits.git "$HOME\.gemini\config\plugins\antigravity-skills-suits"
   ```
 
 ---
@@ -86,13 +86,13 @@ Copy `skills/mike-ross/` into your global Antigravity skills folder:
 
 - **macOS / Linux:**
   ```bash
-  git clone https://github.com/thekrish008/antigravity-skills-suits.git /tmp/antigravity-skills-suits
+  git clone https://github.com/itskrish008/antigravity-skills-suits.git /tmp/antigravity-skills-suits
   mkdir -p ~/.gemini/config/skills
   cp -r /tmp/antigravity-skills-suits/skills/mike-ross ~/.gemini/config/skills/
   ```
 - **Windows (PowerShell):**
   ```powershell
-  git clone https://github.com/thekrish008/antigravity-skills-suits.git "$env:TEMP\antigravity-skills-suits"
+  git clone https://github.com/itskrish008/antigravity-skills-suits.git "$env:TEMP\antigravity-skills-suits"
   New-Item -ItemType Directory -Force -Path "$HOME\.gemini\config\skills" | Out-Null
   Copy-Item -Recurse -Force "$env:TEMP\antigravity-skills-suits\skills\mike-ross" "$HOME\.gemini\config\skills\"
   ```
