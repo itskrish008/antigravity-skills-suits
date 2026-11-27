@@ -1,0 +1,13 @@
+{
+  "name": "antigravity-skills-suits",
+  "displayName": "Suits — Antigravity Skills",
+  "version": "1.0.0",
+  "description": "Suits-themed skills for Google Antigravity, starting with Mike Ross: whole-codebase research, backward-compatible & scalable architecture design, shared Thinking-Trace briefing, and disciplined multi-model swarm orchestration.",
+  "author": "Krish",
+  "repository": "https://github.com/thekrish008/antigravity-skills-suits",
+  "suggestedPrompts": [
+    "Hey Mike, analyze this codebase and design a backward-compatible, scalable architecture for our next feature",
+    "Hey Mike, audit our database and security boundaries before we implement this migration",
+    "/mike-ross map the hidden couplings in this repo and propose a file-level implementation blueprint"
+  ]
+}
